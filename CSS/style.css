@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    background-color: #020A18;
+}
+
+.main {
+    background-color: #09111F;
+} 
+
+/* header start*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #0A121F;
+    margin: 0 200px;
+}
+
+.main header div {
+    display: flex;
+}
+
+.main header div h1 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #3A68B8;
+    padding-left: 30px;
+}
+header nav a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+header .sign-in {
+    background-color: #3A68B8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 112px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* Header end */
+
+
+.main .left-side {
+    width: 560px;
+    height: 400px;
+    margin: 150px 0 0 200px;
+    display: inline-block;
+    }
+
+.main .left-side .next {
+    color: #3A68B8;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main .left-side .Artificial {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.main .left-side .lorem-1 {
+    color: #ffffff ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main .left-side .buttons-1 .Get-started {
+    background-color: #3A68B8;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    display:inline-flex;
+    width: 171px;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.buttons-1 .fa-play{
+    padding-right: 10px;
+}
+
+.main .left-side .buttons-1 .Watch-Video {
+    background-color: #3A68B8;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    width: 217px;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.main .pic-1 {
+    width: 550px;
+    margin-top: 100px;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+.main .partners {
+    width: 1140px;
+    height: 59;
+    display: flex;
+    justify-content: space-between;
+    padding: 190px 0 140px 200px;
+
+}
+
+.intermediate {
+    display: flex;
+    margin: 0 140px;
+}
+
+.intermediate img {
+    width: 600px;
+    padding: 100px 50px 50px;
+}
+
+.intermediate div {
+    width: 484px;
+    height: 314px;
+    margin-top: 180px;
+    margin-left: 50px;
+
+}
+
+.intermediate div h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.intermediate div article {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.intermediate div .Learn-More {
+    color: #fff;
+    background-color: #3A68B8;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 40px;
+
+}
+
+.container .second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second .awards {
+    width: 300px;
+    height: 330px;
+    background-color: #111926;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+.second .awards img{
+    width: 65px;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+.second .awards h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-inline: 20px;
+}
+
+.second .awards p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding-inline: 20px;
+}
